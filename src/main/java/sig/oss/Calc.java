@@ -6,11 +6,7 @@ public class Calc {
 	public int sub(int x, int y) { //add method
 		return x-y;
 	}
-	public int inc(int d){
-		r += d;
-	}
-	public int getResult(){
-		return r;
-	}
-	
+	public int dec(int d){
+		r -= d;
+	}	
 }
